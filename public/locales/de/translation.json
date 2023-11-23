@@ -3,5 +3,7 @@
   "InsteadOf": "Statt",
   "Discount": "Rabbat",
   "AddToCart": "In den Warenkorb",
-  "Signin": "Anmeldung"
+  "Signin": "Anmeldung",
+  "Search": "Suche",
+  "All": "Alle"
 }
