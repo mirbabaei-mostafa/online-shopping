@@ -1,0 +1,67 @@
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  gap: 35px;
+}
+.productBox {
+  width: 290px;
+  height: 450px;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  place-items: top;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+.productBoxImage {
+  width: 290px;
+  height: 200px;
+  border: 0px;
+  padding-bottom: 20px;
+}
+.productBoxTitle {
+  font: bold 16px Ubuntu, Arial;
+  padding-bottom: 8px;
+}
+.productBoxRaiting {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.productBoxRaitingText {
+  font: normal 14px Nunito;
+}
+.productBoxPrice {
+  font: normal 22px Nunito, Arial;
+  padding-bottom: 8px;
+}
+.productBoxPriceSign {
+  font: normal 10px Nunito, Arial;
+}
+.productBoxDiscount {
+  font: normal 14px Ubuntu, Arial;
+  padding-bottom: 8px;
+}
+.productBoxDiscountOver {
+  text-decoration: line-through;
+}
+.productBoxAddToCard {
+  width: 100%;
+  padding: 6px;
+  margin-top: 20px;
+  border: solid 1px #615400;
+  border-radius: 3px;
+  font: normal 14px Ubuntu, Arial;
+  background-color: #f0bf1f;
+  cursor: pointer;
+}

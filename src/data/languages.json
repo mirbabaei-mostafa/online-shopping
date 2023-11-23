@@ -1,0 +1,14 @@
+[
+  {
+    "name": "English",
+    "language": "en",
+    "type": "en-US",
+    "flag": "../images/us.jpg"
+  },
+  {
+    "name": "Deutsch",
+    "language": "de",
+    "type": "de-DE",
+    "flag": "../images/de.jpg"
+  }
+]
