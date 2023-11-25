@@ -1,10 +1,10 @@
-import React from 'react';
-import { sampleProducts } from '../../data/sampleProducts';
-import { Product } from '../../types/Products';
-import './Products.css';
-import { Link } from 'react-router-dom';
-import Rating from '../../components/Rating';
-import { useTranslation } from 'react-i18next';
+import React from "react";
+import { sampleProducts } from "../../data/sampleProducts";
+import { Product } from "../../types/Products";
+import "./Products.css";
+import { Link } from "react-router-dom";
+import Rating from "../../components/Rating";
+import { useTranslation } from "react-i18next";
 
 const Products = () => {
   const { t } = useTranslation();
@@ -16,10 +16,10 @@ const Products = () => {
             <img src={product.images} className="productBoxImage" />
           </div>
           <div className="productBoxTitle">
-            <Link to={'/product/' + product.id}>{product.name}</Link>
+            <Link to={"/product/" + product.slug}>{product.name}</Link>
           </div>
           <div className="productBoxRaiting">
-            <Rating rate={product.rating} />{' '}
+            <Rating rate={product.rating} />{" "}
             <span className="productBoxRaitingText">{product.review}</span>
           </div>
           <div className="productBoxPrice">
@@ -27,12 +27,12 @@ const Products = () => {
             <span className="productBoxPriceSign">€</span>
           </div>
           <div className="productBoxDiscount">
-            {t('InsteadOf')}:{' '}
+            {t("InsteadOf")}:{" "}
             <span className="productBoxDiscountOver">{product.price}</span> (
-            {product.discount} % {t('Discount')})
+            {product.discount} % {t("Discount")})
           </div>
           <div>
-            <button className="productBoxAddToCard">{t('AddToCart')}</button>
+            <button className="productBoxAddToCard">{t("AddToCart")}</button>
           </div>
         </div>
       ))}
