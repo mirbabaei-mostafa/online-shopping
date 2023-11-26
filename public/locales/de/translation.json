@@ -1,9 +1,13 @@
 {
   "Hello": "Hallo",
+  "Products": "Produkte",
+  "Product": "Produkt",
   "InsteadOf": "Statt",
   "Discount": "Rabbat",
   "AddToCart": "In den Warenkorb",
+  "OutOfBox": "Ausverkauft",
   "Signin": "Anmeldung",
   "Search": "Suche",
-  "All": "Alle"
+  "All": "Alle",
+  "Loading": "Wird geladen ..."
 }
