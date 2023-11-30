@@ -9,6 +9,24 @@
   height: 100%;
   gap: 35px;
 }
+.productLoadingBox {
+  padding: 10px;
+  width: 100%;
+  font: bold 14px Ubuntu, Arial;
+  color: #383838;
+  background-color: #dfdfdf;
+  border: solid 1px #9b9b9b;
+  border-radius: 7px;
+}
+.productErrorBox {
+  padding: 10px;
+  width: 100%;
+  font: bold 14px Ubuntu, Arial;
+  color: #5e0000;
+  background-color: #ffc4c4;
+  border: solid 1px #fc6c6c;
+  border-radius: 7px;
+}
 .productBox {
   width: 290px;
   height: 450px;
@@ -64,4 +82,18 @@
   font: normal 14px Ubuntu, Arial;
   background-color: #f0bf1f;
   cursor: pointer;
+}
+.productBoxOutOfBox {
+  width: 100%;
+  padding: 6px;
+  margin-top: 20px;
+  border: solid 1px #585858;
+  border-radius: 3px;
+  font: normal 14px Ubuntu, Arial;
+  background-color: #b8b8b8;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }

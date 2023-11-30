@@ -1,9 +1,13 @@
 {
   "Hello": "Hello",
+  "Products": "Products",
+  "Product": "Product",
   "InsteadOf": "Instead Of",
   "Discount": "Discount",
   "AddToCart": "Add To Cart",
+  "OutOfBox": "Out Of Stock",
   "Signin": "Sign in",
   "Search": "Search",
-  "All": "All"
+  "All": "All",
+  "Loading": "Loading ..."
 }
