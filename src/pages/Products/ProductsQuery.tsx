@@ -27,14 +27,16 @@ const ProductsQuery = () => {
             <img src={product.images} className="productBoxImage" />
           </div>
           <div className="productBoxTitle">
-            <Link to={'/product/' + product.slug}>{product.name}</Link>
+            <Link to={'/product/:' + product.slug}>{product.name}</Link>
           </div>
           <div className="productBoxRaiting">
             <Rating rate={product.rating} />{' '}
             <span className="productBoxRaitingText">{product.review}</span>
           </div>
           <div className="productBoxPrice">
-            {((product.price * product.discount) / 100).toFixed(2)}
+            {(product.price - (product.price * product.discount) / 100).toFixed(
+              2
+            )}
             <span className="productBoxPriceSign">€</span>
           </div>
           <div className="productBoxDiscount">

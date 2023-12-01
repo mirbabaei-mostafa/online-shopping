@@ -9,5 +9,8 @@
   "Signin": "Sign in",
   "Search": "Search",
   "All": "All",
-  "Loading": "Loading ..."
+  "Loading": "Loading ...",
+  "ProductNotFound": "Product Not Found",
+  "Price": "Price:",
+  "Reviews": "Reviews"
 }
