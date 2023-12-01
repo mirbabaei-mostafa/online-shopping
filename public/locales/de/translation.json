@@ -9,5 +9,8 @@
   "Signin": "Anmeldung",
   "Search": "Suche",
   "All": "Alle",
-  "Loading": "Wird geladen ..."
+  "Loading": "Wird geladen ...",
+  "ProductNotFound": "Keine Produkte",
+  "Price": "Preis:",
+  "Reviews": "Reviews"
 }

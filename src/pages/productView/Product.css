@@ -1,0 +1,125 @@
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.productLoadingBox {
+  padding: 10px;
+  width: 100%;
+  font: bold 14px Ubuntu, Arial;
+  color: #383838;
+  background-color: #dfdfdf;
+  border: solid 1px #9b9b9b;
+  border-radius: 7px;
+}
+.productErrorBox {
+  padding: 10px;
+  width: 100%;
+  font: bold 14px Ubuntu, Arial;
+  color: #5e0000;
+  background-color: #ffc4c4;
+  border: solid 1px #fc6c6c;
+  border-radius: 7px;
+}
+.productBox {
+  width: 100%;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  place-items: top;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: flex-start;
+  gap: 35px;
+}
+.productImageBox {
+  width: 500px;
+  align-items: center;
+}
+.productImage {
+  width: 490px;
+  height: 400px;
+  border: 0px;
+}
+.productInfoBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 480px;
+}
+
+.productBoxTitle {
+  font: bold 36px Ubuntu, Arial;
+  padding-bottom: 8px;
+  border-bottom: solid 1px #cfcfcf;
+  width: 100%;
+}
+.productBoxRaiting {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  gap: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #cfcfcf;
+  width: 100%;
+}
+.productBoxRaitingText {
+  font: normal 14px Nunito;
+}
+.productBoxPrice {
+  font: bold 22px Nunito, Arial;
+  padding-bottom: 8px;
+  border-bottom: solid 1px #cfcfcf;
+  width: 100%;
+}
+.productBoxPriceSign {
+  font: normal 10px Nunito, Arial;
+}
+.productBoxDiscount {
+  font: normal 14px Ubuntu, Arial;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.productBoxDiscountOver {
+  text-decoration: line-through;
+}
+.productBoxAddToCard {
+  width: 100%;
+  padding: 6px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border: solid 1px #615400;
+  border-radius: 3px;
+  font: normal 14px Ubuntu, Arial;
+  background-color: #f0bf1f;
+  cursor: pointer;
+}
+.productBoxOutOfBox {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border: solid 1px #585858;
+  border-radius: 3px;
+  font: normal 14px Ubuntu, Arial;
+  background-color: #b8b8b8;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.productBoxDescription {
+  font: normal 14px Nunito, Arial;
+  padding-bottom: 15px;
+  width: 100%;
+}

@@ -20,6 +20,9 @@ app.use(
 app.get('/api/products', (req: Request, res: Response) => {
   res.json(sampleProducts);
 });
+app.get('/api/products/::slug', (req: Request, res: Response) => {
+  res.send(sampleProducts.find((p) => p.slug === req.params.slug));
+});
 app.listen(PORT, () => {
   console.log('Started at http://localhost:' + PORT);
 });
